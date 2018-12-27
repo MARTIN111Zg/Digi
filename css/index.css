@@ -322,3 +322,66 @@
             background-color: #dd4b39;
             border-color: transparent;
         }
+
+        .owl-carousel .owl-dot, .owl-carousel .owl-nav  {
+            color:var(--grey);
+            background: none;
+            font-size:4rem;
+            margin:0;
+            padding: 0;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+
+        }
+        .owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next,
+        .owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-prev {
+            margin:0 .5rem;
+            padding:0;
+            display: inline-block;
+        }
+        .owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next:hover,
+        .owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-prev:hover {
+            color: var(--yellow);
+        }
+
+        /*================
+        ===Skills========*/
+        .skill {
+            margin-bottom: 2rem;
+        }
+        .skill h4 {
+            line-height: 6.4rem;
+            margin: 0;
+            font-weight: normal;
+        }
+        .progress {
+            height: 2.5rem;
+            border-radius: 0;
+            background-color: var(--smoke);
+            overflow: visible;
+        }
+        .progress-bar {
+            background-color: var(--yellow);
+            position: relative;
+        }
+        .progress-bar span {
+            font-size: 1.1rem;
+            font-weight: 100;
+            font-family: var(--font2);
+            background-color: var(--grey);
+            padding: .3rem;
+            position: absolute;
+            left:97%;
+            top:-4.7rem;
+
+        }
+        .progress-bar span::before {
+            content: "";
+            border-top: 1rem solid var(--grey);
+            border-left: .7rem solid transparent;
+            border-right: .7rem solid transparent;
+            position: absolute;
+            bottom: -1rem;
+            left:27%;
+        }

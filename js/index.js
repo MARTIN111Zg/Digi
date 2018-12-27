@@ -20,3 +20,15 @@
 
     });
   });
+  $(function() {
+    $("#progress-elements").waypoint(function() {
+        $(".progress-bar").each(function() {
+
+            $(this).animate({
+                width: $(this).attr("aria-valuenow") + "%"
+            },3000);
+        });
+        this.destroy();
+
+    },{offset:'bottom-in-view'});
+  });
