@@ -610,3 +610,38 @@ ul.social-list li:nth-child(3) a:hover {
     line-height: 2.4rem;
     margin-bottom: 3rem;
 }
+/*================
+===Portfolio========*/
+#portfolio .vertical-heading {
+    margin-bottom: 5rem;
+}
+.row.no-gutters [class*=col-]{
+padding: 0;
+}
+#isotope-filters {
+   margin-bottom: 1rem; 
+   padding: 2rem 2.5rem 2rem 0;
+}
+#isotope-filters button {
+    font-family: var(--font1);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    box-shadow: none;
+    padding-right: 3.5rem;
+}
+#isotope-filters button:focus {
+     
+        outline: 0;
+        
+}
+#isotope-filters button span {
+    display:block;
+    padding-bottom: .5rem;
+    transition: border-color .3s linear;
+}
+#isotope-filters button.active span {
+    color: var(--yellow);
+    border-bottom: 3px solid var(--yellow);
+}
