@@ -61,3 +61,12 @@ $(window).on('load', function () {
 
 });
 
+$(function() {
+    $("#portfolio-wrapper").magnificPopup({
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
+    });
+});
