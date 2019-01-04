@@ -589,18 +589,26 @@ ul.social-list li:nth-child(3) a:hover {
   line-height: 2.4rem;
   margin-bottom: 3rem;
 }
+
 /*================
 ===Portfolio========*/
+#portfolio {
+  padding-bottom: 16rem;
+}
+
 #portfolio .vertical-heading {
   margin-bottom: 5rem;
 }
+
 .row.no-gutters [class*="col-"] {
   padding: 0;
 }
+
 #isotope-filters {
   margin-bottom: 1rem;
   padding: 2rem 2.5rem 2rem 0;
 }
+
 #isotope-filters button {
   font-family: var(--font1);
   font-size: 1.2rem;
@@ -610,30 +618,37 @@ ul.social-list li:nth-child(3) a:hover {
   box-shadow: none;
   padding-right: 3.5rem;
 }
+
 #isotope-filters button:focus {
   outline: 0;
 }
+
 #isotope-filters button span {
   display: block;
   padding-bottom: 0.5rem;
   transition: border-color 0.3s linear;
 }
+
 #isotope-filters button.active span {
   color: var(--yellow);
   border-bottom: 3px solid var(--yellow);
 }
+
 .portfolio-item {
   overflow: hidden;
   position: relative;
 }
+
 .portfolio-item img {
   width: 100%;
   height: auto;
   transition: transform 0.6s linear;
 }
+
 .portfolio-item:hover img {
   transform: scale(1.15);
 }
+
 .portfolio-item-overlay {
   position: absolute;
   top: 0;
@@ -645,6 +660,7 @@ ul.social-list li:nth-child(3) a:hover {
   opacity: 0;
   transition: all 0.8s;
 }
+
 .porfolio-item-details {
   width: 100%;
   position: absolute;
@@ -652,6 +668,7 @@ ul.social-list li:nth-child(3) a:hover {
   left: 0;
   transform: translateY(-50%);
 }
+
 .porfolio-item-details h3 {
   color: var(--yellow);
   text-transform: uppercase;
@@ -661,6 +678,7 @@ ul.social-list li:nth-child(3) a:hover {
   transform: translateY(-20%);
   transition: all 0.8s;
 }
+
 .porfolio-item-details span {
   display: inline-block;
   border-top: 1px solid var(--white);
@@ -669,6 +687,7 @@ ul.social-list li:nth-child(3) a:hover {
   width: 3rem;
   margin: 1.1rem auto 0.5rem auto;
 }
+
 .porfolio-item-details p {
   font-size: 1.7rem;
   color: var(--white);
@@ -678,12 +697,84 @@ ul.social-list li:nth-child(3) a:hover {
   transform: translateY(20%);
   transition: all 0.8s;
 }
+
 .portfolio-item:hover .porfolio-item-details p {
   transform: translateY(0);
 }
+
 .portfolio-item:hover .porfolio-item-details h3 {
   transform: translateY(0);
 }
+
 .portfolio-item:hover .portfolio-item-overlay {
   opacity: 1;
+}
+
+/*================
+===Testemonials========*/
+#testemonials {
+  background-color: var(--smoke);
+  padding-bottom: 4.5rem;
+  overflow: visible;
+}
+
+#testemonials .vertical-heading {
+  padding: 8rem 0;
+  margin-bottom: 5rem;
+}
+
+#testemonial-slider {
+  background-color: var(--yellow);
+  top: -12rem;
+}
+
+.testemonial {
+  padding: 2rem 4.5rem 0 4.5rem;
+  color: var(--white);
+}
+
+.testemonial .row {
+  margin-bottom: 2.5rem;
+}
+
+.testemonial h3 {
+  font-size: 3.2rem;
+  line-height: 3.5rem;
+}
+
+.testemonial .stars {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.testemonial p {
+  line-height: normal;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+}
+
+.testemonial .author .author-name-des {
+  width: 10.06rem;
+  margin-top: 2.5rem;
+  text-align: left;
+}
+
+.author .author-name-des p {
+  margin: 0;
+}
+
+.testemonial .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-prev {
+  font-size: 3rem;
+  background: none;
+}
+
+.testemonial .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next:hover,
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-prev:hover {
+  background: none;
+  color: var(--smoke);
 }

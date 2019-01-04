@@ -47,26 +47,42 @@ $(function () {
 
 /*--PORTFOLIO--*/
 $(window).on('load', function () {
- $("#isotope-container").isotope({
+    $("#isotope-container").isotope({
 
- });
- $("#isotope-filters").on('click','button',function() {
-    var filterValue = $(this).attr('data-filter');
-    $("#isotope-container").isotope({ filter: filterValue });
-    $("#isotope-filters").find('.active').removeClass('active');
-    $(this).addClass('active');
- });
+    });
+    $("#isotope-filters").on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $("#isotope-container").isotope({
+            filter: filterValue
+        });
+        $("#isotope-filters").find('.active').removeClass('active');
+        $(this).addClass('active');
+    });
 
 
 
 });
 
-$(function() {
+$(function () {
     $("#portfolio-wrapper").magnificPopup({
-        delegate:'a',
-        type:'image',
-        gallery:{
-            enabled:true
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
         }
+    });
+});
+
+$(function () {
+    $("#testemonial-slider").owlCarousel({
+        items: 1,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+
     });
 });
