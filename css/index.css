@@ -158,6 +158,19 @@ section {
   border: 1px solid var(--grey);
 }
 
+.btn-white {
+  color: var(--grey);
+  border: 1px solid var(--white);
+  background-color: var(--white);
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background-color: var(--grey);
+  color: var(--white);
+  border: 1px solid var(--grey);
+}
+
 /*arrow*/
 #arrow-down {
   position: absolute;
@@ -777,4 +790,120 @@ ul.social-list li:nth-child(3) a:hover {
 .owl-carousel .owl-nav .owl-prev:hover {
   background: none;
   color: var(--smoke);
+}
+
+/*================
+===Pricing========*/
+.pricing-table {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 3.2rem 2.1rem;
+  transition: all .4s linear;
+}
+
+.pricing-table:hover {
+  background-color: var(--yellow);
+}
+
+.pricing-table .type h4 {
+  color: var(--yellow);
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.pricing-table .price {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 2.5rem .5rem;
+}
+
+.pricing-table .price h2 {
+  font-family: var(--font2);
+  font-size: 4, 2rem;
+  font-weight: 100;
+  margin: 0 0 0 2.4rem;
+  position: relative;
+}
+
+.pricing-table .price h2 span {
+  font-family: var(--font1);
+}
+
+.pricing-table .price h2 span.dollar {
+  font-size: 1.8rem;
+  font-weight: 300;
+  position: absolute;
+  top: .5rem;
+  left: -2rem;
+}
+
+.pricing-table .price h2 span.month {
+  font-size: 1.1rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: -1.2rem;
+  left: .5rem;
+}
+
+.pricing-table .price p {
+  line-height: normal;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-table ul.package {
+  list-style: none;
+  padding: 2rem 0;
+}
+
+.pricing-table ul.package li {
+  font-family: var(--font2);
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 4rem;
+}
+
+.pricing-table ul.package li i {
+  width: 2.4rem;
+}
+
+.pricing-table .btn-yellow {
+  width: 96%;
+}
+
+.pricing-table:hover h4,
+.pricing-table:hover h2,
+.pricing-table:hover p,
+.pricing-table:hover ul.package {
+  color: var(--white);
+}
+
+.pricing-table:hover .btn-yellow {
+  background-color: var(--white);
+  color: var(--grey);
+  border: 1px solid var(--white);
+}
+
+.pricing-table .btn-yellow:hover {
+  background-color: var(--grey);
+  color: var(--white);
+  border: 1px solid var(--grey);
+}
+
+.pricing-table.black {
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+.pricing-table.black .type h4 {
+  color: var(--white);
+}
+
+.pricing-table.black:hover {
+  background-color: var(--yellow);
+}
+
+.pricing-table .btn-white {
+  width: 96%;
 }
