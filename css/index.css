@@ -907,3 +907,57 @@ ul.social-list li:nth-child(3) a:hover {
 .pricing-table .btn-white {
   width: 96%;
 }
+
+/*================
+===Stats========*/
+#stats {
+  background: url(../img/stats/stats-bg.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+#stats .content-box-md {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#stats .vertical-heading {
+  margin-bottom: 5rem;
+}
+
+#stats .vertical-heading h2 {
+  color: var(--white);
+}
+
+.stats-item {
+  background-color: rgba(61, 68, 68, 0.6);
+  border-radius: 5px;
+  min-height: 17rem;
+  padding: 2.5rem 5rem;
+  transition: all .6s linear;
+}
+
+.stats-item i {
+  font-size: 4.2rem;
+  color: var(--yellow);
+  margin: 0 0 .6rem 0;
+  transition: all .6s linear;
+}
+
+.stats-item h3 {
+  font-size: 3.2rem;
+  color: var(--white);
+  margin: .7rem 0;
+}
+
+.stats-item p {
+  color: var(--white);
+  margin: 0;
+}
+
+.stats-item:hover {
+  background-color: var(--yellow);
+}
+
+.stats-item:hover i {
+  transform: translateY(-1rem);
+  color: var(--grey);
+}
