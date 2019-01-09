@@ -200,6 +200,10 @@ section {
   padding: 10rem 0;
 }
 
+.content-box-sm {
+  padding: 9rem 0;
+}
+
 /*----------------------
       -----VERTICAL-HEADING--------*/
 .vertical-heading h5 {
@@ -959,5 +963,32 @@ ul.social-list li:nth-child(3) a:hover {
 
 .stats-item:hover i {
   transform: translateY(-1rem);
+  color: var(--grey);
+}
+
+/*================
+===Clients========*/
+#clients .horizontal-heading {
+  margin-bottom: 3rem;
+}
+
+.clients-list {
+  padding: 4.5rem 0 0 0;
+}
+
+.client {
+  padding: 0 1rem;
+  max-width: 15rem;
+  margin: 0 auto;
+  line-height: 10rem;
+}
+
+.client img {
+  display: inline-block !important;
+
+}
+
+#clients .owl-carousel .owl-nav .owl-next,
+#clients .owl-carousel .owl-nav .owl-prev {
   color: var(--grey);
 }
