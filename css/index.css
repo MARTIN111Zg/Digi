@@ -1054,3 +1054,77 @@ ul.social-list li:nth-child(3) a:hover {
   font-weight: 500;
   margin: 0;
 }
+
+/*================
+===Contact-Left========*/
+#contact-left p {
+  margin: 2.5rem 0 2rem 0;
+}
+
+ul.office-details {
+  list-style: none;
+  padding: 0;
+}
+
+ul.office-details li {
+  font-family: var(--font2);
+  margin-top: 1.2rem;
+  display: flex;
+  font-size: 1.6rem;
+}
+
+ul.office-details li i {
+  font-size: 2rem;
+  width: 4.5rem;
+}
+
+#contact-left ul.social-list li a {
+  color: var(--grey);
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-left ul.social-list li a:hover {
+  color: white;
+  text-decoration: none;
+  border-color: transparent;
+}
+
+/*================
+===Contact-Right========*/
+#contact-right {
+  padding: 2.5rem 3rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#contact-right h4 {
+  font-size: 2.4rem;
+}
+
+#contact-right p {
+  margin-bottom: 2.5rem;
+}
+
+#contact-right form input.form-control {
+  font-family: var(--font2);
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+
+}
+
+#contact-right form textarea.form-control {
+  min-height: 16.4rem;
+  font-family: var(--font2);
+
+}
+
+#contact-right form input.form-control:focus,
+#contact-right form textarea.form-control:focus {
+  outline: none;
+  border: 3px solid var(--yellow);
+  border-radius: 5px;
+}
