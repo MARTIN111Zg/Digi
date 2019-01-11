@@ -1127,4 +1127,23 @@ ul.office-details li i {
   outline: none;
   border: 3px solid var(--yellow);
   border-radius: 5px;
+
+}
+
+/*================
+===Footer========*/
+
+footer {
+  background-color: var(--grey);
+  padding: 3rem;
+}
+
+footer p {
+  color: var(--white);
+  font-size: 2rem;
+  letter-spacing: .5rem;
+}
+
+footer p span {
+  color: var(--yellow);
 }
